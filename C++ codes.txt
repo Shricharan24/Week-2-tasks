@@ -12,7 +12,7 @@ class humanbeing{
 };
 int main() {
    humanbeing nath;
-   babu.name = "Manju ";
+   babu.name = "Charan ";
    babu.introduce();
    humanbeing man;
    man.name = "Karthik";
