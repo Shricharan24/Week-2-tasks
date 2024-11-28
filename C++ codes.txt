@@ -1,0 +1,67 @@
+// Online C++ compiler to run C++ program online
+/*#include <iostream>
+#include <string>
+
+using namespace std;
+class humanbeing{
+    public :
+    string name;
+    void introduce(){
+        cout<<"My name is "<<name<<endl;
+    }
+};
+int main() {
+   humanbeing nath;
+   babu.name = "Manju ";
+   babu.introduce();
+   humanbeing man;
+   man.name = "Karthik";
+   man.introduce();
+    return 0;
+}*/
+
+//creating objects from class in diffrent ways using arrow operator
+
+/*#include <bits/stdc++.h>
+using namespace std;
+
+class humanbeing{
+    public:
+    string name;
+    void introduce(){
+        cout<<"Enter thye name:" <<name<<endl;
+        
+    }
+    
+};//create main class
+int main(){
+    humanbeing man;
+    humanbeing *name_1 = new humanbeing();
+    man.name = "Praveen ";
+    man.introduce();
+    man.name = "Priya";
+    man.introduce();
+    name_1->name = "HII ra mama ";
+    name_1->introduce();
+    name_1 ->name = "How ARE you ";
+    name_1->introduce();
+    return 0;
+    
+}
+*/
+//sum of array using class and object 
+/*
+#include <iostream>
+using namespace std;
+ 
+class Array {
+private:
+    int arr[5]; // Array to hold 5 integers
+ 
+public:
+    // Function to input array elements
+    void inputArray() {
+        cout << "Enter 5 elements of the array:" << endl;
+        for (int i = 0; i < 5; i++) {
+            cin >> arr[i];
+        }
