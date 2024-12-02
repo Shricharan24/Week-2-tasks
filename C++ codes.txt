@@ -1,5 +1,5 @@
-// Online C++ compiler to run C++ program online
-/*#include <iostream>
+
+#include <iostream>
 #include <string>
 
 using namespace std;
@@ -11,25 +11,24 @@ class humanbeing{
     }
 };
 int main() {
-   humanbeing nath;
-   babu.name = "Charan ";
-   babu.introduce();
+   humanbeing charan;
+   charan.name = "Charan ";
+   charan.introduce();
    humanbeing man;
    man.name = "Karthik";
    man.introduce();
     return 0;
-}*/
-
+}
 //creating objects from class in diffrent ways using arrow operator
 
-/*#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 class humanbeing{
     public:
     string name;
     void introduce(){
-        cout<<"Enter thye name:" <<name<<endl;
+        cout<<"Enter the name:" <<name<<endl;
         
     }
     
@@ -37,17 +36,17 @@ class humanbeing{
 int main(){
     humanbeing man;
     humanbeing *name_1 = new humanbeing();
-    man.name = "Praveen ";
+    man.name = "charan ";
     man.introduce();
-    man.name = "Priya";
+    man.name = "manjunath";
     man.introduce();
-    name_1->name = "HII ra mama ";
+    name_1->name = "HII ";
     name_1->introduce();
-    name_1 ->name = "How ARE you ";
+    name_1 ->name = "How are you ";
     name_1->introduce();
     return 0;
-    
 }
+
 */
 //sum of array using class and object 
 /*
